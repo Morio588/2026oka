@@ -1,64 +1,630 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-TW">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>2026 Okinawa Family Trip Guide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Okinawa Family Trip Guide ｜ 沖繩家族旅行 2026</title>
+<meta name="description" content="2026.08.19–08.23 沖繩家族旅行指南：航班、飯店與五天行程總覽。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="hero">
-  <div class="overlay">
-    <h1>🇯🇵 Okinawa Family Trip Guide</h1>
-    <p>2026/08/19 – 2026/08/23</p>
+
+<!-- ===== Progress dots (desktop wayfinding) ===== -->
+<nav class="dot-nav" aria-label="頁面章節導覽">
+  <a href="#hero" class="dot-nav__item" data-label="首頁"><span></span></a>
+  <a href="#overview" class="dot-nav__item" data-label="總覽"><span></span></a>
+  <a href="#flights" class="dot-nav__item" data-label="航班"><span></span></a>
+  <a href="#hotel" class="dot-nav__item" data-label="飯店"><span></span></a>
+  <a href="#day1" class="dot-nav__item" data-label="Day 1"><span></span></a>
+  <a href="#day2" class="dot-nav__item" data-label="Day 2"><span></span></a>
+  <a href="#day3" class="dot-nav__item" data-label="Day 3"><span></span></a>
+  <a href="#day4" class="dot-nav__item" data-label="Day 4"><span></span></a>
+  <a href="#day5" class="dot-nav__item" data-label="Day 5"><span></span></a>
+</nav>
+
+<!-- ===== Top navigation ===== -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#hero" class="navbar__brand">OKINAWA<span>2026</span></a>
+    <button class="navbar__toggle" id="navToggle" aria-label="開啟選單" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navbar__links" id="navLinks">
+      <a href="#overview">總覽</a>
+      <a href="#flights">航班</a>
+      <a href="#hotel">飯店</a>
+      <a href="#itinerary">行程</a>
+    </nav>
   </div>
 </header>
 
-<main class="container">
+<main>
 
-<section class="card">
-<h2>✈️ 航班資訊</h2>
-<div class="grid2">
-<div>
-<h3>去程｜CI0310</h3>
-<p><strong>10:00</strong> 台中 RMQ</p>
-<p><strong>12:40</strong> 沖繩 OKA</p>
-</div>
-<div>
-<h3>回程｜CI0313</h3>
-<p><strong>19:00</strong> 沖繩 OKA</p>
-<p><strong>19:30</strong> 台中 RMQ（台灣時間）</p>
-</div>
-</div>
-</section>
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__ocean" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="eyebrow reveal">FAMILY TRIP · 沖繩家族旅行</p>
+      <h1 class="hero__title reveal">🇯🇵 Okinawa<br>Family Trip Guide</h1>
+      <p class="hero__dates reveal">2026 . 08 . 19 — 08 . 23</p>
+      <p class="hero__sub reveal">五天四夜・那霸出發，一路玩到瀨長島夕陽</p>
+    </div>
+    <a href="#overview" class="hero__scroll" aria-label="向下捲動">
+      <span></span>
+    </a>
+  </section>
 
-<section class="card">
-<h2>🏨 基本資訊</h2>
-<ul>
-<li>飯店：THE NEST NAHA（4晚）</li>
-<li>成員：4 位大人・5 位小朋友</li>
-<li>Day1：機場接送</li>
-<li>Day2：包車</li>
-<li>Day3：包車＋計程車</li>
-<li>Day4：巴士＋計程車</li>
-<li>Day5：機場接送</li>
-</ul>
-</section>
+  <!-- ===== Overview / at a glance ===== -->
+  <section class="section" id="overview">
+    <div class="container">
+      <p class="eyebrow reveal">TRIP AT A GLANCE</p>
+      <h2 class="section__title reveal">這趟旅行，一眼看懂</h2>
 
-<section class="card">
-<h2>📅 五天行程總覽</h2>
-<div class="days">
-<a class="day" href="#day1">✈️ Day1｜抵達沖繩</a>
-<a class="day" href="#day2">🐠 Day2｜包車・美麗海水族館</a>
-<a class="day" href="#day3">🦁 Day3｜包車・兒童王國</a>
-<a class="day" href="#day4">🌅 Day4｜巴士・DMM・瀨長島</a>
-<a class="day" href="#day5">⛩️ Day5｜波上宮・國際通・回家</a>
-</div>
-</section>
+      <div class="glance-grid">
+        <div class="glance-card reveal">
+          <span class="glance-card__icon">📅</span>
+          <span class="glance-card__label">旅行天數</span>
+          <span class="glance-card__value">5 天 4 夜</span>
+        </div>
+        <div class="glance-card reveal">
+          <span class="glance-card__icon">🗓️</span>
+          <span class="glance-card__label">出發日期</span>
+          <span class="glance-card__value">2026/08/19</span>
+        </div>
+        <div class="glance-card reveal">
+          <span class="glance-card__icon">🛬</span>
+          <span class="glance-card__label">返程日期</span>
+          <span class="glance-card__value">2026/08/23</span>
+        </div>
+        <div class="glance-card reveal">
+          <span class="glance-card__icon">🏨</span>
+          <span class="glance-card__label">下榻飯店</span>
+          <span class="glance-card__value">THE NEST NAHA</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="day1" class="card"><h2>✈️ Day1｜抵達沖繩</h2><p>機場接送 → THE NEST → 國際通 → 平和通 → 牧志市場</p><p>🍽️ 晚餐：牧志市場</p><p><em>詳細 Timeline 將於下一版加入。</em></p></section>
-<section id="day2" class="card"><h2>🐠 Day2｜包車・美麗海水族館</h2><p>美麗海 → 海豚秀 → KOURI SHRIMP → 古宇利島 → Shinmei Coffee → 萬座毛</p><p>🍽️ 晚餐：Jack's Steak House</p><p><em>詳細 Timeline 將於下一版加入。</em></p></section>
-<section id="day3" class="card"><h2>🦁 Day3｜包車・兒童王國</h2><p>兒童王國 → A&W → 美國村 → Araha Beach → AEON Rycom</p><p>🍽️ 晚餐：AEON Rycom</p><p><em>詳細 Timeline 將於下一版加入。</em></p></section>
-<section id="day4" class="card"><h2>🌅 Day4｜巴士・DMM・瀨長島</h2><p>DMM → iias → 美らSUN Beach → 瀨長島 → 琉球的牛</p><p>🍽️ 晚餐：琉球的牛</p><p><em>詳細 Timeline 將於下一版加入。</em></p></section>
-<section id="day5" class="card"><h2>⛩️ Day5｜波上宮・國際通・回家</h2><p>波上宮 → 波之上海灘 → 國際通 → 牧志市場 → 機場</p><p>✈️ CI0313 19:00</p><p><em>詳細 Timeline 將於下一版加入。</em></p></section>
-</main><script src='js/app.js'></script></body></html>
+  <!-- ===== Flights ===== -->
+  <section class="section section--tint" id="flights">
+    <div class="container">
+      <p class="eyebrow reveal">FLIGHTS</p>
+      <h2 class="section__title reveal">航班資訊</h2>
+      <p class="section__desc reveal">中華航空・台中 RMQ ⇄ 那霸 OKA</p>
+
+      <div class="boarding-row">
+
+        <article class="boarding-pass reveal">
+          <div class="boarding-pass__head">
+            <span class="boarding-pass__tag">去程 · OUTBOUND</span>
+            <span class="boarding-pass__flight">CI 0310</span>
+          </div>
+          <div class="boarding-pass__route">
+            <div class="boarding-pass__point">
+              <span class="boarding-pass__time">10:00</span>
+              <span class="boarding-pass__code">RMQ</span>
+              <span class="boarding-pass__city">台中</span>
+            </div>
+            <div class="boarding-pass__path" aria-hidden="true">
+              <span class="boarding-pass__plane">✈️</span>
+            </div>
+            <div class="boarding-pass__point">
+              <span class="boarding-pass__time">12:40</span>
+              <span class="boarding-pass__code">OKA</span>
+              <span class="boarding-pass__city">那霸</span>
+            </div>
+          </div>
+          <div class="boarding-pass__foot">
+            <span>2026/08/19</span>
+            <span>飛行時間約 1 小時 40 分</span>
+          </div>
+        </article>
+
+        <article class="boarding-pass reveal">
+          <div class="boarding-pass__head">
+            <span class="boarding-pass__tag">回程 · RETURN</span>
+            <span class="boarding-pass__flight">CI 0313</span>
+          </div>
+          <div class="boarding-pass__route">
+            <div class="boarding-pass__point">
+              <span class="boarding-pass__time">19:00</span>
+              <span class="boarding-pass__code">OKA</span>
+              <span class="boarding-pass__city">那霸</span>
+            </div>
+            <div class="boarding-pass__path" aria-hidden="true">
+              <span class="boarding-pass__plane">✈️</span>
+            </div>
+            <div class="boarding-pass__point">
+              <span class="boarding-pass__time">19:30</span>
+              <span class="boarding-pass__code">RMQ</span>
+              <span class="boarding-pass__city">台中</span>
+            </div>
+          </div>
+          <div class="boarding-pass__foot">
+            <span>2026/08/23</span>
+            <span>抵達時間為台灣時間</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Hotel ===== -->
+  <section class="section" id="hotel">
+    <div class="container">
+      <p class="eyebrow reveal">STAY</p>
+      <h2 class="section__title reveal">住宿飯店</h2>
+
+      <div class="hotel-card reveal">
+        <div class="hotel-card__media" aria-hidden="true">
+          <span class="hotel-card__media-icon">🏨</span>
+        </div>
+        <div class="hotel-card__body">
+          <span class="hotel-card__tag">NAHA CITY</span>
+          <h3 class="hotel-card__name">THE NEST NAHA</h3>
+          <p class="hotel-card__meta">那霸市區・詳細地址與交通方式待補充</p>
+          <ul class="hotel-card__facts">
+            <li><span>入住</span><strong>2026/08/19</strong></li>
+            <li><span>退房</span><strong>2026/08/23</strong></li>
+            <li><span>住宿型式</span><strong>飯店</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Itinerary ===== -->
+  <section class="section section--tint" id="itinerary">
+    <div class="container">
+      <p class="eyebrow reveal">ITINERARY</p>
+      <h2 class="section__title reveal">五天行程</h2>
+      <p class="section__desc reveal">依目前討論定案・Day4 巴士班次將於出發前一週確認</p>
+    </div>
+  </section>
+
+  <!-- Day 1 -->
+  <section class="day-section" id="day1">
+    <span class="day-section__ghost" aria-hidden="true">01</span>
+    <div class="container day-section__inner">
+      <div class="day-section__head reveal">
+        <span class="day-section__badge">DAY 1 · 08/19</span>
+        <h3 class="day-section__title"><span class="day-section__emoji">✈️</span>抵達沖繩</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <span class="timeline__time">10:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>CI0310 台中起飛</strong>
+            <p>台中國際機場起飛，飛往那霸</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">12:40</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>抵達那霸機場</strong>
+            <p>準時降落 OKA</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">12:40</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>入境、領行李、機場接送</strong>
+            <p>停留約 1.5 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">14:10</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>THE NEST Check-in、休息</strong>
+            <p>停留約 50 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">15:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>步行至國際通</strong>
+            <p>步行約 15 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">15:15</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>國際通、平和通</strong>
+            <p>停留約 1 小時 45 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">17:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>牧志公設市場（晚餐）</strong>
+            <p>停留約 1 小時 30 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">18:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>散步返回飯店</strong>
+            <p>步行約 30 分鐘</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Day 2 -->
+  <section class="day-section day-section--alt" id="day2">
+    <span class="day-section__ghost" aria-hidden="true">02</span>
+    <div class="container day-section__inner">
+      <div class="day-section__head reveal">
+        <span class="day-section__badge">DAY 2 · 08/20</span>
+        <h3 class="day-section__title"><span class="day-section__emoji">🐠</span>包車・美麗海水族館</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <span class="timeline__time">08:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>包車出發</strong>
+            <p>從飯店出發</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">10:10</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>沖繩美麗海水族館</strong>
+            <p>停留約 2 小時 50 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">11:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>海豚劇場（必看）</strong>
+            <p>停留約 20 分鐘・固定行程</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">13:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>KOURI SHRIMP 午餐</strong>
+            <p>停留約 50 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">13:50</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>古宇利島</strong>
+            <p>停留約 50 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">14:40</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>Shinmei Coffee 黑糖咖啡</strong>
+            <p>停留約 40 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">16:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>萬座毛</strong>
+            <p>停留約 45 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">18:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>返回那霸</strong>
+            <p>包車返回市區</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">19:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>Jack's Steak House 晚餐</strong>
+            <p>停留約 1.5 小時</p>
+          </div>
+        </div>
+      </div>
+      <div class="day-note reveal">
+        <span class="day-note__icon">💡</span>
+        <span>海豚劇場列為固定行程。</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Day 3 -->
+  <section class="day-section" id="day3">
+    <span class="day-section__ghost" aria-hidden="true">03</span>
+    <div class="container day-section__inner">
+      <div class="day-section__head reveal">
+        <span class="day-section__badge">DAY 3 · 08/21</span>
+        <h3 class="day-section__title"><span class="day-section__emoji">🦁</span>兒童王國</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <span class="timeline__time">08:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>包車出發</strong>
+            <p>從飯店出發</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">09:10</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>沖繩兒童王國</strong>
+            <p>停留約 3 小時 30 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">12:40</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>A&amp;W 午餐</strong>
+            <p>停留約 45 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">13:45</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>美國村</strong>
+            <p>停留約 1 小時 40 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">15:25</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>Araha Beach</strong>
+            <p>停留約 50 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">16:20</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>AEON Rycom</strong>
+            <p>停留約 2 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">18:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>AEON 晚餐</strong>
+            <p>停留約 1 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">19:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>計程車返回 THE NEST</strong>
+            <p>車程約 30 分鐘</p>
+          </div>
+        </div>
+      </div>
+      <div class="day-note reveal">
+        <span class="day-note__icon">💡</span>
+        <span>包車於 AEON Rycom 結束，改搭計程車回飯店。</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Day 4 -->
+  <section class="day-section day-section--alt" id="day4">
+    <span class="day-section__ghost" aria-hidden="true">04</span>
+    <div class="container day-section__inner">
+      <div class="day-section__head reveal">
+        <span class="day-section__badge">DAY 4 · 08/22</span>
+        <span class="day-section__alert">⚠️ 巴士班次待出發前一週確認</span>
+        <h3 class="day-section__title"><span class="day-section__emoji">🌅</span>巴士・DMM・瀨長島</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <span class="timeline__time">08:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>飯店出發前往巴士站</strong>
+            <p>前往搭乘巴士</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">09:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>抵達 DMM Kariyushi Aquarium</strong>
+            <p>停留約 2 小時（抵達時間約 09:30 左右）</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">11:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>iias Okinawa Toyosaki 午餐</strong>
+            <p>停留約 1 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">12:45</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>美らSUN Beach</strong>
+            <p>停留約 1 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">14:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>計程車前往瀨長島</strong>
+            <p>車程約 10 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">14:15</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>瀨長島 Umikaji Terrace</strong>
+            <p>停留約 3 小時・夕陽 & 白色希臘風商店街</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">17:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>計程車前往琉球的牛</strong>
+            <p>車程約 20 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">18:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>琉球的牛 晚餐</strong>
+            <p>停留約 1.5 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">19:45</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>計程車返回飯店</strong>
+            <p>車程約 15 分鐘</p>
+          </div>
+        </div>
+      </div>
+      <div class="day-note reveal">
+        <span class="day-note__icon">💡</span>
+        <span>採巴士＋計程車，巴士班次將於出發前確認。</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Day 5 -->
+  <section class="day-section" id="day5">
+    <span class="day-section__ghost" aria-hidden="true">05</span>
+    <div class="container day-section__inner">
+      <div class="day-section__head reveal">
+        <span class="day-section__badge">DAY 5 · 08/23</span>
+        <h3 class="day-section__title"><span class="day-section__emoji">⛩️</span>波上宮・國際通・回家</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline__item">
+          <span class="timeline__time">08:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>退房、寄放行李</strong>
+            <p>停留約 30 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">09:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>波上宮</strong>
+            <p>停留約 45 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">09:45</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>波之上海灘</strong>
+            <p>停留約 30 分鐘</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">10:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>國際通最後採買</strong>
+            <p>停留約 1 小時 30 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">12:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>牧志公設市場 午餐</strong>
+            <p>停留約 1 小時</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">13:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>自由活動／採買</strong>
+            <p>停留約 2 小時 30 分</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">16:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>回飯店取行李</strong>
+            <p>整理行李準備前往機場</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">16:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>機場接送</strong>
+            <p>搭乘接送前往那霸機場</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">19:00</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>CI0313 起飛</strong>
+            <p>準備飛往台中</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <span class="timeline__time">19:30</span>
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <div class="timeline__content">
+            <strong>抵達台中（台灣時間）</strong>
+            <p>結束五天四夜沖繩家族旅行 🎉</p>
+          </div>
+        </div>
+      </div>
+      <div class="day-note reveal">
+        <span class="day-note__icon">💡</span>
+        <span>使用機場接送前往那霸機場。</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>🌊 Okinawa Family Trip · 2026/08/19 – 08/23</p>
+  <p class="footer__sub">Made with care for the family trip.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
