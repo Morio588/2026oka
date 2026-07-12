@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 820" width="520" height="820">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#eaf7fb"/>
+      <stop offset="55%" stop-color="#dcf1f8"/>
+      <stop offset="100%" stop-color="#c9ecf5"/>
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#01497c"/>
+      <stop offset="100%" stop-color="#0582ca"/>
+    </linearGradient>
+    <linearGradient id="pathGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#01497c"/>
+      <stop offset="100%" stop-color="#48cae4"/>
+    </linearGradient>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#01243d" flood-opacity="0.14"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="0" y="0" width="520" height="820" rx="28"/></clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="520" height="820" rx="28" fill="url(#bgGrad)"/>
+  <g clip-path="url(#cardClip)">
+    
+  <circle cx="465" cy="70" r="30" fill="#ffe9a8" opacity="0.65"/>
+  <circle cx="465" cy="70" r="18" fill="#ffd166" opacity="0.85"/>
+  <g opacity="0.55" fill="#ffffff">
+    <ellipse cx="80" cy="55" rx="26" ry="10"/>
+    <ellipse cx="102" cy="48" rx="18" ry="9"/>
+    <ellipse cx="58" cy="48" rx="16" ry="8"/>
+  </g>
+
+    
+  <path d="M0 800 C 60 780 100 810 160 795 C 220 780 260 805 320 792 C 380 780 420 802 480 790 C 500 786 510 788 520 786 L520 820 L0 820 Z" fill="#bfe8f5" opacity="0.8"/>
+  <path d="M0 812 C 70 800 130 818 200 808 C 270 798 330 815 400 806 C 450 800 480 808 520 804 L520 820 L0 820 Z" fill="#a9def0" opacity="0.9"/>
+
+  </g>
+  <rect x="1" y="1" width="518" height="818" rx="27" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+
+  <text x="36" y="52" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#0582ca">DAY 2 ROUTE</text>
+  <text x="36" y="80" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="#01243d">包車・美麗海水族館</text>
+
+  <g filter="url(#softShadow)">
+    <path d="M 108,690 L 145,175 L 258,122 L 372,172 L 432,128 L 378,262 L 262,425 L 160,655" fill="none" stroke="url(#pathGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 14"/>
+  </g>
+
+  
+    <g class="pin">
+      <circle cx="108" cy="690" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(96,677) scale(1)"><path d="M4 20 L4 10 L12 4 L20 10 L20 20 Z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
+        <rect x="9.5" y="13" width="5" height="7" fill="#fff"/></g>
+      <circle cx="122" cy="676" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="122" y="679.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">1</text>
+    </g>
+    <g class="pin">
+      <circle cx="145" cy="175" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(133,162) scale(1)"><path d="M4 12 C7 6 15 6 18 12 C15 18 7 18 4 12 Z" fill="#fff"/>
+        <path d="M18 12 L22 8 L22 16 Z" fill="#fff"/>
+        <circle cx="8" cy="11" r="1" fill="#01497c"/></g>
+      <circle cx="159" cy="161" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="159" y="164.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">2</text>
+    </g>
+    <g class="pin">
+      <circle cx="258" cy="122" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(246,109) scale(1)"><path d="M3 17 C7 6 15 4 21 9 C16 9 14 12 15 16 C12 14 9 15 8 18 C6 15 4 16 3 17 Z" fill="#fff"/></g>
+      <circle cx="272" cy="108" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="272" y="111.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">3</text>
+    </g>
+    <g class="pin">
+      <circle cx="372" cy="172" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(360,159) scale(1)"><path d="M6 6 C2 9 2 15 6 19 C8 20 9 18 8 16 C11 17 15 15 16 11 C19 11 21 9 20 6 C18 8 16 8 15 6 C13 9 9 9 6 6 Z" fill="#fff"/></g>
+      <circle cx="386" cy="158" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="386" y="161.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">4</text>
+    </g>
+    <g class="pin">
+      <circle cx="432" cy="128" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(420,115) scale(1)"><ellipse cx="8" cy="16" rx="6" ry="4" fill="#fff"/>
+        <ellipse cx="19" cy="18" rx="3.5" ry="2.5" fill="#fff"/>
+        <rect x="12.5" y="15.6" width="5" height="1.6" fill="#fff"/>
+        <path d="M6 12 L8 5 L10 12 Z" fill="#fff"/></g>
+      <circle cx="446" cy="114" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="446" y="117.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">5</text>
+    </g>
+    <g class="pin">
+      <circle cx="378" cy="262" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(366,249) scale(1)"><path d="M5 10 h11 v6 a5.5 5.5 0 0 1 -11 0 Z" fill="#fff"/>
+        <path d="M16 12 h2.5 a2.5 2.5 0 0 1 0 5 h-2.5" fill="none" stroke="#fff" stroke-width="1.8"/>
+        <path d="M8 4 C7 6 9 6 8 8 M12 4 C11 6 13 6 12 8" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></g>
+      <circle cx="392" cy="248" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="392" y="251.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">6</text>
+    </g>
+    <g class="pin">
+      <circle cx="262" cy="425" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(250,412) scale(1)"><path d="M2 19 L7 8 L11 14 L15 5 L22 19 Z" fill="#fff"/>
+        <path d="M2 19 h20" stroke="#01497c" stroke-width="1.4"/></g>
+      <circle cx="276" cy="411" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="276" y="414.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">7</text>
+    </g>
+    <g class="pin">
+      <circle cx="160" cy="655" r="19" fill="url(#pinGrad)" stroke="#ffffff" stroke-width="3"/>
+      <g transform="translate(148,642) scale(1)"><ellipse cx="12" cy="12" rx="9" ry="7" fill="#fff"/>
+        <path d="M6 9 C10 11 14 11 18 9 M6 12 C10 14 14 14 18 12 M6 15 C9 16.5 15 16.5 18 15" stroke="#01497c" stroke-width="1.2" fill="none"/></g>
+      <circle cx="174" cy="641" r="9" fill="#ffb703" stroke="#fff" stroke-width="2"/>
+      <text x="174" y="644.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-weight="800" fill="#5c3d00">8</text>
+    </g>
+  
+    <g class="pin-label">
+      <rect x="138.0" y="667.0" width="110.5" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="153.0" y="686.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">THE NEST NAHA</text>
+      <text x="153.0" y="703.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">08:30 出發</text>
+    </g>
+    <g class="pin-label">
+      <rect x="175.0" y="152.0" width="119.3" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="190.0" y="171.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">沖繩美麗海水族館</text>
+      <text x="190.0" y="188.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">10:10</text>
+    </g>
+    <g class="pin-label">
+      <rect x="220.7" y="50.0" width="74.6" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="235.7" y="69.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">海豚劇場</text>
+      <text x="235.7" y="86.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">11:30</text>
+    </g>
+    <g class="pin-label">
+      <rect x="401.7" y="149.0" width="104.3" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="416.7" y="168.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">KOURI SHRIMP</text>
+      <text x="416.7" y="185.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">13:00 午餐</text>
+    </g>
+    <g class="pin-label">
+      <rect x="327.4" y="74.0" width="74.6" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="342.4" y="93.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">古宇利島</text>
+      <text x="342.4" y="110.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">13:50</text>
+    </g>
+    <g class="pin-label">
+      <rect x="389.3" y="239.0" width="116.7" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="404.3" y="258.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">Shinmei Coffee</text>
+      <text x="404.3" y="275.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">14:40</text>
+    </g>
+    <g class="pin-label">
+      <rect x="292.0" y="402.0" width="63.5" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="307.0" y="421.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">萬座毛</text>
+      <text x="307.0" y="438.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">16:00</text>
+    </g>
+    <g class="pin-label">
+      <rect x="190.0" y="632.0" width="141.5" height="46" rx="12" fill="rgba(255,255,255,0.92)" stroke="rgba(1,36,61,0.10)"/>
+      <text x="205.0" y="651.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="14" font-weight="700" fill="#01243d">Jack's Steak House</text>
+      <text x="205.0" y="668.0" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="12" font-weight="600" fill="#0582ca">19:00 晚餐</text>
+    </g>
+
+  <text x="260.0" y="800" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',sans-serif" font-size="11" font-style="italic" fill="#6e6e73">路線為示意圖，非精確地理位置與比例</text>
+</svg>

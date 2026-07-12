@@ -104,4 +104,45 @@
     sections.forEach(function (section) { sectionObserver.observe(section); });
   }
 
+  /* -----------------------------------------------------------------
+     5. Lightbox for day-map illustrations
+     ----------------------------------------------------------------- */
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightboxImg');
+  var lightboxClose = document.getElementById('lightboxClose');
+  var mapTriggers = document.querySelectorAll('.day-map__trigger');
+
+  function openLightbox(imgEl) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = imgEl.src;
+    lightboxImg.alt = imgEl.alt || '';
+    lightbox.classList.add('is-open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  mapTriggers.forEach(function (trigger) {
+    trigger.addEventListener('click', function () {
+      var img = trigger.querySelector('img');
+      if (img) openLightbox(img);
+    });
+  });
+
+  if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
+  if (lightbox) {
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
 })();
